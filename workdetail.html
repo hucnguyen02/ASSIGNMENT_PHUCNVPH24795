@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Work Detail</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <header>
+            <div class="max-w-7xl mx-auto px-5 py-5">
+                <div class="flex justify-end">
+                    <button id="button" class="md:hidden">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="44"
+                            height="44"
+                            fill="currentColor"
+                            class="bi bi-justify"
+                            viewBox="0 0 24 24">
+                            <path
+                                fill-rule="evenodd"
+                                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0
+                                1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1
+                                .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0
+                                1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0
+                                1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1
+                                .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="md:flex justify-end">
+                        <ul id="menu" class="hidden md:flex md:space-x-5">
+                            <li class="text-[20px] font-bold list-none"><a
+                                    href="">blog</a></li>
+                            <li class="text-[20px] font-bold list-none
+                                text-red-500"><a
+                                    href="">Works</a></li>
+                            <li class="text-[20px] font-bold list-none"><a
+                                    href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="main">
+                <div class="max-w-4xl mx-auto px-5 py-4">
+                    <h2 class="md:text-[34px] text-[30px] text-[#21243D]
+                        font-bold
+                        md:w-[506px]"><a href="">Designing Dashboards with
+                            usability
+                            in mind</a></h2>
+                    <div class="py-5 space-x-5 flex">
+                        <div class="max-h-[25px]"> <span class="bg-[#FF7C7C]
+                                text-[18px] text-white font-bold
+                                py-1 px-2 rounded-2xl">2020</span></div>
+                        <span class="text-[#21243D] md:text-[20px] text-[18px]
+                            font-regular">Dashboard, User Experience Design</span>
+                    </div>
+                    <p class="text-[16px] font-regular md:w-[678px]">Amet minim
+                        mollit non deserunt ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="max-w-4xl mx-auto px-5 py-4">
+                    <img class="w-full" src="img/detail1.jpg" alt="">
+                    <div class="space-y-2 pt-4 mt-6">
+                        <h3 class="md:text-[30px] text-[26px] text-[#21243D]
+                            font-medium"><a href="">Heading 1</a></h3>
+                        <h4 class="md:text-[24px] text-[20px] text-[#21243D]
+                            font-medium"><a href="">Heading 2</a></h4>
+                        <p class="text-[16px] font-regular text-black
+                            md:w-[617px]">Amet
+                            minim mollit non deserunt ullamco est sit aliqua
+                            dolor
+                            do amet sint. Velit officia consequat duis enim
+                            velit
+                            mollit. Exercitation veniam consequat sunt nostrud
+                            amet.</p>
+                    </div>
+                </div>
+                <div class="max-w-4xl mx-auto px-5">
+                    <img class="py-4 w-full" src="img/detail2.png" alt="">
+                    <img class="w-full" src="img/detail3.png" alt="">
+                </div>
+            </div>
+            <footer>
+                <div class="max-w-4xl mx-auto px-5 py-12">
+                    <div class="justify-center flex space-x-9 py-4">
+                        <a href=""><img src="img/logo1.svg" alt=""></a>
+                        <a href=""><img src="img/logo2.svg" alt=""></a>
+                        <a href=""><img src="img/logo3.svg" alt=""></a>
+                        <a href=""><img src="img/logo4.svg" alt=""></a>
+                    </div>
+                    <p class="text-[14px] text-center">Copyright ©2020 All
+                        rights
+                        reserved</p>
+                </div>
+            </footer>
+            <script>
+            const menu = document.getElementById("menu");
+            const button = document.getElementById("button");
+      
+            button.addEventListener("click", function () {
+              menu.classList.toggle("hidden");
+            });
+          </script>
+        </body>
+    </html>
